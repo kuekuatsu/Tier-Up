@@ -1,0 +1,143 @@
+body{
+   /*font-family:'Open Sans',sans-serif;*/
+   font-family:'Raleway',sans-serif;
+   font-weight:bolder;
+   font-size:20px;
+}
+#wrap{
+   position:relative;
+}
+#first
+{
+   width:100%;
+   height:700px;
+   object-fit:cover;
+   position:relative;
+   z-index:1;
+   opacity:0.5;
+}
+#first:hover
+{
+   opacity:0.7;
+}
+#first:hover +.center
+{
+   opacity:0.7;
+}
+
+#second{
+   width:100%;
+   position:absolute;
+   z-index:2;
+   top:79%;
+}
+.dist{
+   margin-top:1%;
+}
+
+a:link
+{
+   color:rgb(0,123,255);
+   text-decoration:none;
+   font-family:'Raleway',sans-serif;
+   font-weight:bold;
+}
+a:visited
+{
+   color:rgb(0,123,255);
+   text-decoration:none;
+   font-family:'Raleway',sans-serif;
+   font-weight:bold;
+}
+a:hover
+{
+   color:rgb(0,123,255);
+   text-decoration:none;
+   font-family:'Raleway',sans-serif;
+   font-weight:bold;
+}
+a:active
+{
+   color:rgb(0,123,255);
+   text-decoration:none;
+   font-family:'Raleway',sans-serif;
+   font-weight:bold;
+}
+
+#div_filter
+{
+   color:rgb(40,40,40);
+   font-size:20px;
+   position:relative;
+   text-align:center;
+   max-height:230px;
+   /*border:1px solid black;*/
+   z-index:2;
+   user-select: none;
+}
+#div_filter p{
+   font-size:40px;
+   font-family:'Playball',cursive;
+}
+.filter_category
+{
+   height:13vw;
+   width:13vw;
+/*   border:0.5vmin solid white;   */
+}
+.filter_category:hover
+{
+   height:15vw;
+   width:15vw;
+   z-index:5;
+}
+.icon_div
+{
+   position:relative;
+   top:50%;
+}
+#icon_table
+{
+   margin:auto;
+   width:90%;
+}
+@media only screen and (max-width:700px)
+{
+   #div_filter p{
+      font-size:26px;
+   }
+}
+@media only screen and (max-width:400px)
+{
+   #div_filter p{
+      font-size:20px;
+   }
+}
+
+.center{
+   z-index:2;
+   width:100%;
+   text-align:center;
+   color:black;
+   position:absolute;
+   top:35%;
+   font-family:'Playball',cursive;
+   font-size:70px;
+   user-select: none;
+}
+
+#about{
+   background-color:rgb(240,240,240);
+   position:relative;
+   top:20px;
+   user-select: none;
+}
+
+#buttonLogout
+{
+   border:none;
+   background-color:white;
+   color:rgb(0,123,255);
+   font-family:'Raleway',sans-serif;
+   font-weight:bolder;
+}

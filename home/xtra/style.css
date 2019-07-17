@@ -1,0 +1,90 @@
+body{
+   font-family:'Englebert',cursive;
+}
+#back-div{
+   border:2px solid red;
+}
+#main_pic
+{
+   height:40vw;
+   width:100%;
+   z-index:-1;
+   opacity:0.8;
+}
+#search{
+   border:none;
+   border-radius:50px;
+   height:5vmin;
+   width:35vw;
+   text-align:center;
+   font-size:3.5vmin;
+   opacity:0.8;
+}
+#search:focus
+{
+   box-shadow:0px 0px 10px white;
+}
+#first_div{
+   position:relative;
+   top:10vmin;
+   text-align:center;
+}
+.vcenter
+{
+   position:absolute;
+   top:18vw;
+   width:100%;
+}
+#div_filter
+{
+   position:relative;
+   text-align:center;
+}
+.filter_category
+{
+   height:14vw;
+   width:14vw;
+/*   border:0.5vmin solid white;   */
+}
+.icon_div
+{
+   position: relative;
+}
+.icon_div div{
+   width:100%;
+   position:absolute;
+   top:50%;
+   text-align:center;
+   font-size:3.5vmin;
+}
+#icon_table
+{
+   position:relative;
+   top:-8vw;
+   margin:auto;
+   width:90%;
+}
+.text:link{
+   color:navy;
+   text-decoration:none;
+}
+.text:visited{
+   color:navy;
+   text-decoration:none;
+}
+.text:hover{
+   color:navy;
+   text-decoration:none;
+}
+.text:active{
+   color:navy;
+   text-decoration:none;
+}
+
+/*(4,4,4):black
+(239,239,239):white
+(114,114,114):grey
+Buxton Sketch Regular
+Shadows Into Light Re...
+Agency FB Regular
+*/

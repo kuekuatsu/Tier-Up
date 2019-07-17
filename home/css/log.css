@@ -1,0 +1,43 @@
+body{
+   /*font-family:'Open Sans',sans-serif;*/
+   font-family:'Raleway',sans-serif;
+   font-weight:bolder;
+}
+fieldset
+{
+   text-align:center;
+}
+#sButton
+{
+   width:10%;
+   border:none;
+   padding:1em;
+}
+#lButton
+{
+   width:10%;
+   border:none;
+   padding:1em;
+}
+
+a:link
+{
+   color:rgb(0,123,255);
+   text-decoration:none;
+   font-family:'Raleway',sans-serif;
+   font-weight:bold;
+}
+a:visited
+{
+   color:rgb(0,123,255);
+   text-decoration:none;
+   font-family:'Raleway',sans-serif;
+   font-weight:bold;
+}
+a:active
+{
+   color:rgb(0,123,255);
+   text-decoration:none;
+   font-family:'Raleway',sans-serif;
+   font-weight:bold;
+}
